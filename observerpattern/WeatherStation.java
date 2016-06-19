@@ -1,3 +1,4 @@
+import java.util.Observer;
 public class WeatherStation
 {
 	public static void main(String[] args)
