@@ -6,5 +6,10 @@ public class MiniDuckSimulator
         modelDuck.display();
         modelDuck.performFly();
         modelDuck.performQuack();
+
+        Duck normalDuck = new NormalDuck();
+        normalDuck.display();
+        normalDuck.performFly();
+        normalDuck.performQuack();
     }
 }

@@ -2,7 +2,7 @@ public class ModelDuck extends Duck
 {
     public ModelDuck()
     {
-        flyBehavior = new FlyWithWings();
+        flyBehavior = new CanNotFly();
         quackBehavior = new MuteQuack();
     }
 
